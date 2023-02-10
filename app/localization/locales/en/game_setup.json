@@ -1,0 +1,18 @@
+{
+    "must_select_deck_message": "您必须选择一个套牌！",
+    "must_select_opponent_message": "你必须选择一个对手！",
+    "must_select_deck_and_opponent_message": "你必须选择你的套牌和一个对手！",
+    "recommended_ai_opponent_label": "（推荐）",
+    "choose_your_opponent_header": "选择你的对手",
+    "matchmaking_wait_time_message": "平均等待时间为{{wait_time}}",
+    "matchmaking_estimated_wait_time_message": "平均预计等待时间为{{wait_time}}",
+    "find_selected_deck_msg": "在此处找到您选择的套牌。",
+    "waiting_for_opponent_msg": "等待对手",
+    "opponent_choosing_hand_msg": "对手仍然选择起手牌",
+    "opponent_connecting_msg": "对手连接",
+    "opponent_connected_msg": "对手已连接",
+    "battle_map_choose_tooltip": "您选择的战斗地图将在您是<strong>玩家一</strong>时使用。",
+    "battle_map_saved_success_msg": "你的战斗地图已经保存了！",
+    "battle_map_select_title": "设置战斗地图",
+    "battle_map_random": "随机"
+}

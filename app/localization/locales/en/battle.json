@@ -1,0 +1,52 @@
+{
+	"finding_game":"寻找游戏",
+	"starting_practice_game":"开始",
+	"loading_battle":"加载战斗",
+	"existing_battle_in_progress": "游戏进行中",
+	"continue_battle_button_label": "继续",
+
+	"choose_starting_hand_title": "选择开局手牌",
+	"choose_starting_hand_instructions": "点击替换最多2张卡牌。",
+	"choose_starting_hand_confirm_button_label": "确认",
+	"opponent_connection_status_connecting": "对手连接中",
+	"opponent_connection_status_connected": "对手已连接",
+
+	"replace_button_label": "替换",
+	"hand_indicator_label": "手牌",
+	"deck_indicator_label": "牌堆",
+
+	"emote_category_default": "默认",
+	"emote_category_faction": "阵营",
+	"emote_category_other": "其他",
+
+	"your_name_default_label": "你",
+	"opponent_name_default_label": "对手",
+	"battle_log_label": "战斗记录",
+	"turn_button_label_enemy_turn": "敌人回合",
+	"turn_button_label_end_turn": "结束回合",
+	"turn_button_label_restart_turn": "重新开始回合",
+	"menu_button_label": "菜单",
+	"esc_menu_end_game_label": "结束游戏",
+	"esc_menu_concede_label": "认输",
+	"esc_menu_more_settings_label": "设置",
+	"esc_menu_friends_label": "好友",
+	"card_instructions_attack": "攻击",
+	"card_instructions_health": "生命",
+	"card_instructions_mana_cost": "费用",
+
+
+	"outcome_victory": "胜利",
+	"outcome_defeat": "失败",
+	"outcome_draw": "平局",
+	"zero_xp_earned": "+0 经验",
+	"unscored_game_xp_notice": "玩家经验和奖励不足，游戏不能获得经验和奖励。",
+	"max_practice_xp_reached_notice":"单人和友好游戏在11级时停止奖励经验。玩排名游戏以获得更多经验和奖励，直至最高级别。",
+	"gold_tip_button_label": "奖励5金币",
+	"gold_tip_button_tooltip": "打赏对手",
+	"gold_tip_confirm_message": "您确定要用自己的5金币打赏吗？",
+	"report_opponent_button_label": "报告",
+	"max_daily_win_rewards_reached": "已达到每日获胜奖励的最大值。",
+	"progress_towards_next_win_counter_reward": "{{x}}/3胜获得下一个奖励。",
+	"level_up_notice": "升级"
+
+}

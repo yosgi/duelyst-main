@@ -1,0 +1,21 @@
+{
+	"rank": "排",
+	"division": "划分",
+	"season": "季节",
+	"loot_crate_instructions": "升级赛季战利品箱，进入下一个部门",
+	"loot_crate_max_reached": "获得最大战利品箱升级！",
+	"win_streak_message": "{{win_count}}连胜！+1 奖励雪佛龙",
+	"next_division_message": "您将达到{{division_name}}等级{{rank}}",
+	"bronze_division_name": "青铜",
+	"silver_division_name": "银",
+	"gold_division_name": "金",
+	"diamond_division_name": "钻石",
+	"elite_division_name": "S 级",
+	"end_of_ranked_season_title": "排名赛季奖励",
+	"current_rank_message": "排名{{rank}}",
+	"current_division_message": "{{division}}司",
+	"month_year_season_message": "{{month}} {{year}}",
+	"last_season_ranked_earned_message": "你上赛季的排名为你赢得了",
+	"bonus_chevrons_message": "奖金人字形",
+	"season_has_begun_message": "{{month}}赛季{{year}}已经开始！"
+}

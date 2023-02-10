@@ -1,0 +1,9 @@
+{
+	"live_streams_label": "直播流",
+	"replays_label": "回放",
+	"empty_division_replays_message": "这个级别还没有比赛可看。请稍后再回来查看！",
+	"watch_on_twitch_message": "在抽搐上观看",
+	"stream_live_message": "住",
+	"stream_offline_message": "离线",
+	"opens_in_browser_tooltip": "在浏览器中打开"
+}

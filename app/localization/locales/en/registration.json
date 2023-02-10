@@ -1,0 +1,18 @@
+{
+	"registration_title": "创建帐户",
+	"registration_username_label": "用户名",
+	"registration_password_label": "密码",
+	"registration_password_confirmation_label": "确认密码",
+	"registration_invite_code_label": "邀请码",
+	"registration_show_referral_button_label": "有朋友推荐你吗？",
+	"registration_referral_field_label": "好友代码",
+	"registration_referral_field_placeholder": "好友用户名",
+	"registration_submit_button_label": "提交",
+	"registration_success_message": "当我们登录您的新帐户时...",
+	"registration_validation_username_instructions": "3 到 18 个字母数字字符",
+	"registration_validation_username_exists": "用户名已存在",
+	"registration_validation_password_instructions": "最少 8 个字符",
+	"registration_validation_passwords_dont_match": "密码必须匹配",
+	"registration_validation_invite_code_invalid": "邀请码无效",
+	"already_have_an_account": "已有帐户？"
+}

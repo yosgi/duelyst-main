@@ -1,0 +1,17 @@
+{
+	"highlight_practice_game_popover": "在这里练习游戏",
+	"highlight_more_practice_games_popover": "玩更多练习游戏",
+	"highlight_ladder_popover": "玩赛季阶梯游戏",
+	"highlight_solo_challenge_popover": "单人挑战",
+	"play_mode_unlock_message": "完成入门任务以解锁。",
+	"play_mode_gauntlet_unlock_message": "达到10级，任何派系解锁。",
+	"play_mode_unlock_game_count_message": "玩{{game_count}}更多赛季游戏来解锁。",
+	"highlight_open_spirit_orbs_popover": "打开精神宝珠，为您的收藏解锁新卡牌。",
+	"new_quests_popover": "新任务",
+	"buy_spirit_orb": "获取灵珠",
+	"new_shop_special_available_popover": "新特辑",
+	"faction_unlocked_title": "派系已解锁",
+	"faction_cards_unlocked_progress_label": "{{card_count}}卡解锁",
+	"bloodborn_message": "这是你的【血脉咒语】。它会在下一轮刷新。",
+	"bloodborn_message_plural": "这是你的【血脉咒语】。它以{{count}}轮次刷新。"
+}

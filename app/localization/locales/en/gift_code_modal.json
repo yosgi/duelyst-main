@@ -1,0 +1,7 @@
+{
+	"min_char_requirement_error": "最少 3 个字符",
+	"failed_to_redeem_error": "兑换礼品代码失败。请重试。",
+	"redeem_gift_code_title": "输入礼品/推荐代码：",
+	"redeem_success_message": "礼品/推荐代码已兑换...",
+	"gift_code_default": "礼品代码"
+}

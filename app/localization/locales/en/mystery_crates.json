@@ -1,0 +1,22 @@
+{
+	"crate_type_label": "{{crate_type}}板条箱",
+	"mystery_crate_label": "神秘箱",
+	"mystery_crate_name_plural": "神秘板条箱",
+	"mystery_crate_screen_instructions": "选择一个板条箱开始",
+	"unlock_button_label": "开锁",
+	"continue_button_label": "打开",
+	"buy_button_label": "买",
+	"get_keys_label": "获取密钥",
+	"no_crates_of_type_warning": "你没有任何{{crate_type}}箱！",
+	"key_count_label": "你有{{count}} {{crate_type}}钥匙",
+	"key_count_label_plural": "您有{{count}} {{crate_type}}键",
+	"gift_crate_adjective": "礼物",
+	"boss_crate_adjective": "老板",
+	"crate_expires_in_label": "过期时间",
+	"frostfire_adjective": "霜火",
+	"frostfire_promo_text": "1 核心套装球体、精神、",
+	"frostfire_promo_text2": "和霜火化妆品！",
+	"frostfire_premium_adjective": "高级霜火",
+	"frostfire_premium_promo_text": "2 不朽的宝珠，精神，",
+	"frostfire_premium_promo_text2": "和霜火化妆品！"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "duelyst-desktop",
+  "productName": "Duelyst",
+  "license": "CC0-1.0",
+  "version": "1.97.12",
+  "main": "desktop.js",
+  "dependencies": {
+    "electron-debug": "^2.0.0",
+    "electron-localshortcut": "^3.2.1",
+    "electron-window": "^0.8.1",
+    "lodash.debounce": "^4.0.6",
+    "minimist": "^1.1.2",
+    "node-uuid": "*",
+    "os-name": "^2.0.1",
+    "shell": "^0.9.4"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "bluebird": "2.9.13",
+    "cross-env": "^7.0.3",
+    "del": "2.2.0",
+    "electron": "^21.1.1",
+    "electron-packager": "^16.0.0",
+    "electron-rebuild": "^3.2.9",
+    "gulp": "^4.0.2",
+    "gulp-json-editor": "2.2.1",
+    "gulp-rename": "1.2.2",
+    "gulp-tap": "0.1.3",
+    "gulp-util": "3.0.5",
+    "hasha": "2.2.0",
+    "ncp": "2.0.0",
+    "read-pkg": "1.1.0"
+  },
+  "scripts": {
+    "build:all": "cross-env NODE_ENV=staging node node_modules/gulp/bin/gulp.js desktop:build",
+    "build:all:production": "cross-env NODE_ENV=production node node_modules/gulp/bin/gulp.js desktop:build",
+    "build:mac": "cross-env NODE_ENV=staging node node_modules/gulp/bin/gulp.js desktop:build:mac",
+    "build:macm1": "cross-env NODE_ENV=staging node node_modules/gulp/bin/gulp.js desktop:build:macm1",
+    "build:linux": "cross-env NODE_ENV=staging node node_modules/gulp/bin/gulp.js desktop:build:linux",
+    "build:windows": "cross-env NODE_ENV=staging node node_modules/gulp/bin/gulp.js desktop:build:windows",
+    "zip:all": "cross-env NODE_ENV=staging node node_modules/gulp/bin/gulp.js desktop:package",
+    "zip:mac": "node node_modules/gulp/bin/gulp.js desktop:zip:darwin:x64",
+    "zip:macm1": "node node_modules/gulp/bin/gulp.js desktop:zip:darwin:arm64",
+    "zip:linux": "node node_modules/gulp/bin/gulp.js desktop:zip:linux:x64",
+    "zip:windows": "node node_modules/gulp/bin/gulp.js desktop:zip:win32:x64",
+    "start:mac": "cross-env ELECTRON_IS_DEV=1 open dist/build/Duelyst-darwin-x64/Duelyst.app",
+    "start:macm1": "cross-env ELECTRON_IS_DEV=1 open dist/build/Duelyst-darwin-arm64/Duelyst.app",
+    "start:linux": "cross-env ELECTRON_IS_DEV=1 dist/build/Duelyst-linux-x64/Duelyst",
+    "start:windows": "cross-env ELECTRONC_IS_DEV=1 dist/build/Duelyst-win32-x64/Duelyst.exe"
+  }
+}
