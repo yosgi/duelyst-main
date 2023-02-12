@@ -31,7 +31,7 @@
 	"cannot_craft_progression_cards_msg": "你不能制作或幻灭进度卡。",
 	"cannot_craft_prismatic_of_unlockable_set_msg": "在解锁普通版卡牌之前，您无法制作或解除棱镜{{cardSetName}}卡。",
 	"cannot_craft_cards_of_unlockable_set_msg": "您不能制作或消除普通版本的{{cardSetName}}卡。",
-	"cannot_craft_basic_cards_msg": "你不能制作或幻灭基本卡牌。",
+	"cannot_craft_basic_cards_msg": "你不能制作或熔炼基本卡牌。",
 	"duplicate_cards_msg": "您有重复的卡",
 	"new_card_popover_msg": "新的卡牌",
 	"import_deck": "导入卡组",
