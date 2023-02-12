@@ -1,12 +1,12 @@
 {
-	"gauntlet_title": "《手套》",
-	"gauntlet_instructions": "在手套中测试您的技能。起草一副30张牌，与其他玩家对峙。每次胜利都会解锁更好的奖励。战斗直到你输掉3次。",
+	"gauntlet_title": "死斗",
+	"gauntlet_instructions": "在死斗中测试您的技能。挑选30张牌，与其他玩家对战。每次胜利都会解锁更好的奖励。战斗直到你输掉3次。",
 	"gauntlet_start_instructions": "开始挑战赛{{gold_price}}金币或购买{{hard_currency_price}}门票。",
 	"ticket_inventory_label": "你有{{count}}票",
 	"ticket_inventory_label_plural": "你有{{count}}票",
 	"start_button_label": "开始",
-	"start_error_message_insufficient_gold": "你没有足够的金币来开始手套运行。",
-	"start_error_message_generic": "哎呀。。。启动您的手套运行时出现问题。请重试。",
+	"start_error_message_insufficient_gold": "你没有足够的金币来开始死斗运行。",
+	"start_error_message_generic": "哎呀。。。启动您的死斗运行时出现问题。请重试。",
 	"select_faction_label": "选择你的阵营",
 	"select_general_label": "选择您的“常规”",
 	"select_card_label": "选择一张卡",
@@ -16,5 +16,5 @@
 	"claim_rewards_win_count_label_plural": "{{count}}胜",
 	"claim_rewards_button_label": "领取奖励",
 	"win_loss_label": "胜：{{win_count}}负：{{loss_count}}",
-	"no_available_gauntlet_decks": "你最近没有手套牌。"
+	"no_available_gauntlet_decks": "你最近没有死斗牌。"
 }
