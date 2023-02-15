@@ -21,7 +21,7 @@ else
   parser = bodyParser.json()
 
 # Configure CORS.
-if true
+if config.isDevelopment()
   corsOptions = {origin: "*"} # Allow any origin.
 else
   cdnDomain = config.get('aws.cdnDomainName')

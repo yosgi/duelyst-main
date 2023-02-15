@@ -37,7 +37,7 @@ const config = convict({
   },
   api: {
     doc: 'API URL.',
-    default: 'http://localhost:3000',
+    default: 'http://139.180.198.143:3000',
     env: 'API_URL',
   },
   firebase: {
