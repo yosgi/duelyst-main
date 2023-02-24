@@ -34,7 +34,7 @@
 	"deck_select_tab_rift_decks": "裂谷套牌",
 	"deck_select_tab_gauntlet_decks": "死斗卡组",
 	"select_battle_map_button_label": "选择战斗地图",
-	"deck_select_play_ranked_button_label": "玩",
+	"deck_select_play_ranked_button_label": "开始游戏",
 	"deck_select_play_unranked_button_label": "玩 无排名",
 	"deck_select_play_friendly_button_label": "玩友好",
 	"deck_select_play_practice_button_label": "游戏练习",
@@ -43,5 +43,5 @@
 	"deck_select_faction_locked": "锁定 - 在实践中失败！",
 	"practice_mode_choose_opponent": "选择你的对手",
 	"practice_mode_recommended_opponent": "推荐",
-	"booster_opening_get_more_orbs_button_label": "获取更多球体"
+	"booster_opening_get_more_orbs_button_label": "获取更多灵珠"
 }

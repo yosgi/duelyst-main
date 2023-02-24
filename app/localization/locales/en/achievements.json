@@ -52,8 +52,8 @@
 	"referral_title":"独家转介动作",
 	"referral_desc":"您推荐的一位朋友刚刚进行了购买！",
 	"wartech_General_achievement_title": "{{faction_name}} 不朽先锋",
-	"wartech_General_achievement_desc": "恭喜您解锁了 {{faction_name}} 不朽先锋将军！",
-	"wartech_general_achievement_desc": "恭喜解锁 {{faction_name}} 不朽先锋将军！",
+	"wartech_General_achievement_desc": "恭喜您解锁了 {{faction_name}} 不朽先锋英雄！",
+	"wartech_general_achievement_desc": "恭喜解锁 {{faction_name}} 不朽先锋英雄！",
 "early_feb_2018_login_achievement_title": "和 Duelyst 共度情人节 <3",
 "early_feb_2018_login_achievement_desc": "因为我们爱你，送你一份特别的礼物！"
 

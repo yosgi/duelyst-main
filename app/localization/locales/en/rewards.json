@@ -19,7 +19,7 @@
 	"first_3_games_reward_message": "您玩了 3 场完整游戏就获得了 {{gold_amount}} 金币",
 	"first_10_games_reward_title": "10 场比赛奖励",
 	"first_10_games_reward_message": "您通过玩 10 场完整游戏获得了 {{gold_amount}} 金牌",
-	"boss_defeated_reward_title": "老板被打败了",
+	"boss_defeated_reward_title": "BOSS被打败了",
 	"boss_defeated_reward_message": "+1 精神球 首次击败首领",
 	"multi_mystery_crate": "你赢{{numCrates}}神秘箱！",
 	"one_mystery_crate": "你赢了一个{{crateName}}箱！",

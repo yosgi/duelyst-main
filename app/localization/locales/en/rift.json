@@ -20,7 +20,7 @@
 	"purchase_rift_ticket_message": "购买裂谷门票：",
 	"stored_upgrade_count_label": "存储升级： {{getStoredRiftUpgradesCount}} / 10",
 	"no_active_rift_runs_message": "您还没有活动的裂缝运行。",
-	"select_general_message": "选择您的将军",
+	"select_general_message": "选择您的英雄",
 	"select_card_message": "选择一张卡",
 	"confirm_replace_card_message": "是否确实要更换此卡？",
 	"empty_rift_instruction_header": "在裂谷模式中，你可以通过逐个升级卡牌来建造一副牌。",

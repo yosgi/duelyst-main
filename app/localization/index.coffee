@@ -5,8 +5,8 @@ LngDetector = require 'i18next-browser-languagedetector'
 Storage = require 'app/common/storage'
 
 options = {
-  whitelist: ['ch-zn','en', 'de'],
-  fallbackLng: 'ch-zn',
+  whitelist: ['en', 'de'],
+  fallbackLng: 'en',
   contextSeparator: '$',
   defaultNS: 'translation',
   backend: {

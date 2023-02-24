@@ -90,7 +90,7 @@ class Session extends EventEmitter
     body = {}
     body.password = password
     body.username = username
-
+    console.log(123)
     return Promise.resolve(
       fetch "#{@url}/session",
         method: 'POST'
