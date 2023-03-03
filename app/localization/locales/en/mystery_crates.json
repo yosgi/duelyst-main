@@ -1,8 +1,8 @@
 {
 	"crate_type_label": "{{crate_type}}宝箱",
-	"mystery_crate_label": "神秘箱",
+	"mystery_crate_label": "宝箱",
 	"mystery_crate_name_plural": "神秘宝箱",
-	"mystery_crate_screen_instructions": "选择一个宝箱开始",
+	"mystery_crate_screen_instructions": "",
 	"unlock_button_label": "开锁",
 	"continue_button_label": "打开",
 	"buy_button_label": "买",

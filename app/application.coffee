@@ -1034,7 +1034,6 @@ App.onLogin = (data) ->
   ]).then () ->
     # update resolution values as of login
     App._updateLastResolutionValues()
-    console.log("问题应该是上面的有一个connect有问题")
     # we're all done loading managers
     App.managersReadyDeferred.resolve()
 
@@ -1046,8 +1045,7 @@ App.onLogin = (data) ->
   .catch (err) ->
     App.managersReadyDeferred.reject()
     Logger.module("APPLICATION").log("ERROR initializing managers")
-    console.log("发现问题")
-    console.log(err)
+
     if err == null then err = new Error("ERROR initializing managers")
     App._error(err.message)
     throw err

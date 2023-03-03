@@ -102,7 +102,7 @@ var MainMenuItemView = Backbone.Marionette.ItemView.extend({
       var bossCard = SDK.CardFactory.cardForIdentifier(data.boss_battle.boss_id);
       if (bossCard != null) {
         data.boss_battle_name = bossCard.getName();
-        // data.boss_battle_portrait = bossCard.getSpeechResource().img;
+        data.boss_battle_portrait = bossCard.getSpeechResource().img;
       }
     }
 

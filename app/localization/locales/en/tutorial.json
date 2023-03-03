@@ -13,7 +13,7 @@
 	"lesson_1_difficulty": "2 分钟",
 	"lesson_1_start_message": "完成口径这个回合！",
 	"lesson_1_failure_message": "使用你的冰雹傀儡在一个回合内击败口径。",
-	"lesson_1_turn_0_failure_message_1": "选择“常规”和 [定位] 此磁贴。",
+	"lesson_1_turn_0_failure_message_1": "选择“英雄”和 [定位] 此磁贴。",
 	"lesson_1_turn_0_instruction_1": "这是你的[英雄]！",
 	"lesson_1_turn_0_instruction_2": "你从[左侧]开始作为玩家一。",
 	"lesson_1_turn_0_instruction_3": "如果你用完了[生命值]，你就输了。",

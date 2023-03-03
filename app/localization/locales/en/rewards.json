@@ -21,7 +21,7 @@
 	"first_10_games_reward_message": "您通过玩 10 场完整游戏获得了 {{gold_amount}} 金牌",
 	"boss_defeated_reward_title": "BOSS被打败了",
 	"boss_defeated_reward_message": "+1 精神球 首次击败首领",
-	"multi_mystery_crate": "你赢{{numCrates}}神秘箱！",
+	"multi_mystery_crate": "你赢{{numCrates}}宝箱！",
 	"one_mystery_crate": "你赢了一个{{crateName}}箱！",
 	"achievement_complete_title": "成就完成："
 }

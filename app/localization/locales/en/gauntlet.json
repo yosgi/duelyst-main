@@ -8,7 +8,7 @@
 	"start_error_message_insufficient_gold": "你没有足够的金币来开始死斗运行。",
 	"start_error_message_generic": "哎呀。。。启动您的死斗运行时出现问题。请重试。",
 	"select_faction_label": "选择你的阵营",
-	"select_general_label": "选择您的“常规”",
+	"select_general_label": "选择您的英雄",
 	"select_card_label": "选择一张卡",
 	"resign_run_button_label": "离开",
 	"resign_confirmation_message": "你确定要离开吗？",

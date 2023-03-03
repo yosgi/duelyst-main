@@ -414,7 +414,7 @@
 	"deathwatch_buff_applied_name": "聚集阴影",
 	"bound_name": "绑定",
 	"bound_desc": "无法更换。",
-	"cannot_replace_error": "你不能取代它！",
+	"cannot_replace_error": "你不替换它！",
 	"frostfire_chest_name": "霜火宝箱",
 	"frostfire_chest_desc": "收集这个并获得礼物。但不要贪婪...",
 	"lyonarquest_counter_applied_name": "里昂纳尔的审判",
