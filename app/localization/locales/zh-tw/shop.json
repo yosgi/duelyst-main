@@ -74,7 +74,7 @@
 	"combined_booster_description": "Each Ancient Orb contains 5 cards from the Bloodbound Ancients set. At least 1 card will be RARE or better.",
 
 	"fate_booster_name": "{{count}} Mythron Orb",
-	"fate_booster_name_plural": "{{count}} Mythron Orbs",
+	"fate_booster_name_plural": "{{count}} 神话球体",
 	"fate_booster_description": "Each Mythron Orb contains 5 cards from the Trials of Mythron set. At least 1 card will be RARE or better.",
 
 	"BRONZE_DIVISION_STARTER_SPECIAL_name": "Bronze Division Starter",

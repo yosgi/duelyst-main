@@ -106,6 +106,7 @@ var Manager = Backbone.Marionette.Controller.extend({
       }
     }
     Promise.all(allPromises).then(function () {
+      console.log(3333)
       Logger.module('UI').log('Manager::_markAsReadyWhenModelsAndCollectionsSynced -> READY');
       this.ready();
     }.bind(this));

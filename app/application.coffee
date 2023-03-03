@@ -1034,7 +1034,7 @@ App.onLogin = (data) ->
   ]).then () ->
     # update resolution values as of login
     App._updateLastResolutionValues()
-
+    console.log("问题应该是上面的有一个connect有问题")
     # we're all done loading managers
     App.managersReadyDeferred.resolve()
 
@@ -1046,11 +1046,14 @@ App.onLogin = (data) ->
   .catch (err) ->
     App.managersReadyDeferred.reject()
     Logger.module("APPLICATION").log("ERROR initializing managers")
+    console.log("发现问题")
+    console.log(err)
     if err == null then err = new Error("ERROR initializing managers")
     App._error(err.message)
     throw err
-  .finally () ->
-    # NavigationManager.getInstance().destroyDialogView()
+  .finally (res) ->
+    console.log(res)
+    NavigationManager.getInstance().destroyDialogView()
 
 App.onLoginAnalyticsSetup = (loginData) ->
   # region analytics data
@@ -2154,13 +2157,13 @@ App._startGame = () ->
     getFactionImage = (factionId, opponent = false) ->
       s = {key: '', text: ''}
       switch factionId
-        when 1 then s = {key: 'f1', text: 'Lyonar'}
-        when 2 then s = {key: 'f2', text: 'Songhai'}
-        when 3 then s = {key: 'f3', text: 'Vetruvian'}
-        when 4 then s = {key: 'f4', text: 'Abyssian'}
-        when 5 then s = {key: 'f5', text: 'Magmar'}
-        when 6 then s = {key: 'f6', text: 'Vanar'}
-        else s = {key: 'neutral', text: 'Neutral'}
+        when 1 then s = {key: 'f1', text: '里昂王国'}
+        when 2 then s = {key: 'f2', text: '桑海帝国'}
+        when 3 then s = {key: 'f3', text: '维特鲁威帝国'}
+        when 4 then s = {key: 'f4', text: '深渊之主'}
+        when 5 then s = {key: 'f5', text: '玛格玛'}
+        when 6 then s = {key: 'f6', text: '瓦纳尔家族'}
+        else s = {key: 'neutral', text: '中立'}
       if opponent
         s.key += '_small'
       return s
