@@ -80,7 +80,7 @@ class CardFactory_CoreshatterSet_Faction2
       card.factionId = Factions.Faction2
       card.setCardSetId(CardSet.Coreshatter)
       card.name = "Hideatsu the Ebon Ox"
-      card.setDescription("Trial: Summon 7 minions from your action bar with different costs.\nDestiny: Summon friendly minions to deal their cost as damage to an enemy.")
+      card.setDescription("审判: 从你的手牌中召唤7张不同消耗的随从.\n命运: 召唤的友方随从可以对敌方造成所消耗的伤害.")
       card.atk = 5
       card.maxHP = 5
       card.manaCost = 0

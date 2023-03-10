@@ -72,15 +72,15 @@ class CardFactory_CoreshatterSet_Faction1
       card = new Unit(gameSession)
       card.factionId = Factions.Faction1
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Grand Strategos"
-      card.setDescription("Trial: Summon 12 minions with 1 or less Attack.\nDestiny: Promote other friendly minions at the end of your turn.")
+      card.name = "大将军"
+      card.setDescription("审判：召唤12名随从，攻击次数不超过1次。\n目标：在回合结束时提升其他友方随从.")
       card.atk = 5
       card.maxHP = 5
       card.manaCost = 5
       card.rarityId = Rarity.Mythron
       emblemModifier = PlayerModifierEmblemEndTurnWatchLyonarSmallMinionQuest.createContextObject()
-      emblemModifier.appliedName = "Grand Stratagem"
-      emblemModifier.appliedDescription = "At the end of your turn, transform friendly minions other than Grand Strategos into faction minions that cost 1 more."
+      emblemModifier.appliedName = "大将军"
+      emblemModifier.appliedDescription = "你的回合结束时，将大将军以外的友军随从转化为多花费1法力的势力随从."
       card.setInherentModifiersContextObjects([
         ModifierStartsInHand.createContextObject(),
         ModifierCannotBeReplaced.createContextObject(),
@@ -115,11 +115,11 @@ class CardFactory_CoreshatterSet_Faction1
       card.factionId = Factions.Faction1
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.IncreasingDominance
-      card.name = "Bolster"
-      card.setDescription("Intensify: Give friendly minions +2 Health.")
+      card.name = "鼓舞"
+      card.setDescription("强化：给予友方单位+2生命值.")
       card.manaCost = 2
       card.rarityId = Rarity.Common
-      card.modifierAppliedName = "Bolstered"
+      card.modifierAppliedName = "改善"
       card.spellFilterType = SpellFilterType.None
       card.addKeywordClassToInclude(ModifierIntensify)
       card.setInherentModifiersContextObjects([ModifierCounterIntensify.createContextObject()])
@@ -136,8 +136,8 @@ class CardFactory_CoreshatterSet_Faction1
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction1
-      card.name = "Legion"
-      card.setDescription("Intensify: Put 1 Crestfallen into your action bar. Shuffle a copy of this minion into your deck.")
+      card.name = "燃烧军团"
+      card.setDescription("强化：将1个怨气放入准备栏。把这个仆从的复制品塞进你的牌组。")
       card.atk = 3
       card.maxHP = 2
       card.manaCost = 3
@@ -171,8 +171,8 @@ class CardFactory_CoreshatterSet_Faction1
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction1
-      card.name = "Gryphon Fledgling"
-      card.setDescription("Zeal: Flying")
+      card.name = "鹰头狮飞行"
+      card.setDescription("狂热: 飞翔")
       card.atk = 5
       card.maxHP = 3
       card.manaCost = 3
@@ -206,16 +206,16 @@ class CardFactory_CoreshatterSet_Faction1
       card.factionId = Factions.Faction1
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.DivinestBonderest
-      card.name = "Divine Liturgy"
-      card.setDescription("Give all friendly minions +Attack equal to their Health.")
+      card.name = "神圣礼仪"
+      card.setDescription("给予所有友方随从与自身生命值相等的攻击。")
       card.manaCost = 6
       card.rarityId = Rarity.Rare
       card.spellFilterType = SpellFilterType.AllyIndirect
       card.radius = CONFIG.WHOLE_BOARD_RADIUS
       card.attributeTarget = "atk"
       card.attributeSource = "hp"
-      card.appliedName = "Strength of Will"
-      card.appliedDescription = "Gained +Attack equal to Health"
+      card.appliedName = "意志力"
+      card.appliedDescription = "获得攻击提升等于生命值"
       card.setFXResource(["FX.Cards.Spell.DivineLiturgy"])
       card.setBaseSoundResource(
         apply : RSX.sfx_f6_voiceofthewind_attack_impact.audio
@@ -230,8 +230,8 @@ class CardFactory_CoreshatterSet_Faction1
       card.factionId = Factions.Faction1
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.Resilience
-      card.name = "Lifestream"
-      card.setDescription("Fully heal a friendly minion, then draw a copy of it from your deck.")
+      card.name = "生命泉"
+      card.setDescription("完全治愈一个友好的仆从，然后从你的牌组中抽取一个副本。")
       card.manaCost = 1
       card.rarityId = Rarity.Common
       card.spellFilterType = SpellFilterType.AllyDirect
@@ -249,10 +249,10 @@ class CardFactory_CoreshatterSet_Faction1
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction1
-      card.name = "Windcliffe Protector"
-      card.setDescription("Provoke\nWhen a friendly Windcliffe Alarmist dies, transform this minion into a Windcliffe Alarmist.")
+      card.name = "风崖保护器"
+      card.setDescription("挑衅\n当一个友好的温克利夫警长死亡时，将这个仆从转变为温克利夫警员")
       card.atk = 5
-      card.maxHP = 5
+      card.maxHP = 5  
       card.manaCost = 5
       card.rarityId = Rarity.Epic
       card.setInherentModifiersContextObjects([
@@ -275,7 +275,7 @@ class CardFactory_CoreshatterSet_Faction1
         idle : RSX.f1FriendsGuardIdle.name
         walk : RSX.f1FriendsGuardRun.name
         attack : RSX.f1FriendsGuardAttack.name
-        attackReleaseDelay: 0.0
+        attackReleaseDelay: 0.0 
         attackDelay: 0.8
         damage : RSX.f1FriendsGuardHit.name
         death : RSX.f1FriendsGuardDeath.name
@@ -285,8 +285,8 @@ class CardFactory_CoreshatterSet_Faction1
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction1
-      card.name = "Windcliffe Alarmist"
-      card.setDescription("Opening Gambit: Summon a 5/5 Windcliffe Protector with Provoke from your deck.")
+      card.name = "温克利夫警长"
+      card.setDescription("宣告: 从你的甲板上召唤一个5/5 激怒的温克利夫保护者")
       card.atk = 2
       card.maxHP = 2
       card.manaCost = 4
@@ -323,8 +323,8 @@ class CardFactory_CoreshatterSet_Faction1
       card.factionId = Factions.Faction1
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.Rally
-      card.name = "Marching Orders"
-      card.setDescription("Give friendly minions directly in front of and behind your General +2/+2.  If they have Zeal, they cannot be targeted by enemy spells.")
+      card.name = "行军命令"
+      card.setDescription("在你的英雄+2/+2的正前方和后方给予友好的随从。如果他们有狂热，他们就不能被敌人的法术所针对.")
       card.manaCost = 2
       card.rarityId = Rarity.Rare
       card.buffName = "Marching Command"
@@ -345,8 +345,8 @@ class CardFactory_CoreshatterSet_Faction1
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction1
       card.id = Cards.Artifact.TwoHander
-      card.name = "Radiant Standard"
-      card.setDescription("Your General has +3 Attack.\nWhen your General attacks, summon a minion that costs 3 from your deck nearby.")
+      card.name = "辐射"
+      card.setDescription("你的英雄有+3攻击。\n当你的将军攻击时，从附近的甲板上召唤一个3法力的仆从.")
       card.manaCost = 6
       card.rarityId = Rarity.Epic
       card.durability = 3
@@ -368,8 +368,8 @@ class CardFactory_CoreshatterSet_Faction1
       card.factionId = Factions.Faction1
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.ChargeIntoBattle
-      card.name = "Lionize"
-      card.setDescription("Give Celerity to a friendly minion directly behind your General.")
+      card.name = "瞻仰"
+      card.setDescription("将迅捷交给你英雄身后的一个友好随从。")
       card.manaCost = 5
       card.rarityId = Rarity.Epic
       card.spellFilterType = SpellFilterType.AllyDirect
@@ -392,8 +392,8 @@ class CardFactory_CoreshatterSet_Faction1
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction1
-      card.name = "Indominus"
-      card.setDescription("Your General is Invulnerable BUT cannot move or attack.")
+      card.name = "上帝之手"
+      card.setDescription("你的英雄无敌，但无法移动或攻击。")
       card.atk = 7
       card.maxHP = 9
       card.manaCost = 7
@@ -428,8 +428,8 @@ class CardFactory_CoreshatterSet_Faction1
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction1
-      card.name = "War Exorcist"
-      card.setDescription("Provoke\nAt the start of your turn, Holy Immolation your damaged minions.")
+      card.name = "战争驱魔师"
+      card.setDescription("挑衅：\n在你的回合开始时，神圣献祭你受伤的随从.")
       card.atk = 3
       card.maxHP = 8
       card.manaCost = 5
@@ -465,8 +465,8 @@ class CardFactory_CoreshatterSet_Faction1
       card.factionId = Factions.Faction1
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.OnceMoreWithProvoke
-      card.name = "Amaranthine Vow"
-      card.setDescription("Summon around your General all friendly minions with Provoke that died this game.")
+      card.name = "阿玛辛誓言"
+      card.setDescription("在你的英雄周围召唤所有在本场比赛中死亡的随从。")
       card.manaCost = 9
       card.rarityId = Rarity.Legendary
       card.addKeywordClassToInclude(ModifierProvoke)

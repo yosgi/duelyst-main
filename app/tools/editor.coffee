@@ -1357,7 +1357,7 @@ whenLocalizationReady.then ()->
       )
 
       request.done((data)->
-        alert("Please reload")
+        alert("重新启动游戏")
         location.reload()
       )
       request.fail((response) ->

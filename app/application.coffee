@@ -3369,7 +3369,7 @@ App.bindEvents = () ->
   $(CONFIG.GAMECANVAS_SELECTOR).on("webglcontextlost", () ->
     App.onRequestReload({
       id: "webgl_context_lost",
-      message: "Your graphics hit a snag and requires a #{if window.isDesktop then "restart" else "reload"} to avoid any issues."
+      message: "遇到错误需要 #{if window.isDesktop then "重启" else "重新加载"} "
     })
   )
 
