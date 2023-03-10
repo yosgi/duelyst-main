@@ -1,6 +1,6 @@
 {
 	"env": "development",
-	"api": "http://43.154.181.35:3000",
+	"api": "http://43.156.138.54:3000",
 	"postgres_connection_string": "postgres://duelyst:duelyst@0.0.0.0:5432/duelyst",
 	"redis": {
 		"host": "localhost",
