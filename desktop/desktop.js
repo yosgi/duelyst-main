@@ -96,8 +96,8 @@ app.on('ready', () => {
 
   const windowOptions = {
     title: 'Duelyst',
-    width: 1300,
-    height: 760,
+    width: 1500,
+    height: 800,
     frame: true,
     resizable: true,
     webPreferences: {
@@ -110,9 +110,10 @@ app.on('ready', () => {
   mainWindow = window.createWindow(windowOptions);
 
   // toggle to fullscreen after launch
-  if (!argv.windowed) {
-    mainWindow.setFullScreen(true);
-  }
+  //取消全屏
+  // if (!argv.windowed) {
+  //   mainWindow.setFullScreen(true);
+  // }
 
   // can access at window.__args__ from scripts
   // ran from index.html

@@ -62,11 +62,13 @@ class NetworkManager
       # Use secure WebSockets in staging and production.
       env = process.env.NODE_ENV || 'development'
       protocol = if env == 'development' then 'ws' else 'wss'
-
+      # wss有问题直接采用ws连接
+      protocol = 'ws'
       # Determine which WebSocket host to use.
       # Use the assigned game server if one was provided.
       host = if gameServerAddress? then gameServerAddress else window.location.hostname
-
+      # 始终指向服务器地址
+      host = if !host then '43.156.138.54' else host
       # Determine which WebSocket port to use.
       # SP modes use port 8000; MP modes use port 8001.
       port = if GameType.isSinglePlayerGameType(gameType) then 8000 else 8001
