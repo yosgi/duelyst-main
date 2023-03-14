@@ -9,7 +9,7 @@
 	"change_payment_info_button_label": "改变",
 	"delete_payment_info_button_label": "删除",
 	"confirm_purchase_dialog_quantity_label": "数量",
-	"confirm_purchase_dialog_orb_gold_cost": "每个灵珠将花费<跨度类=“产品-金币-成本”><strong>{{gold_cost}}</strong>金币</span>",
+	"confirm_purchase_dialog_orb_gold_cost": "每个灵珠将花费<strong>{{gold_cost}}</strong>金币",
 	"confirm_purchase_dialog_premium_price": "<strong> {{price}}</strong>钻石",
 	"all_subcategories_title": "都",
 	"balance_label": "平衡",

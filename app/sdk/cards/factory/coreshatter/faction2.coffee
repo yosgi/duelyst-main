@@ -79,15 +79,15 @@ class CardFactory_CoreshatterSet_Faction2
       card = new Unit(gameSession)
       card.factionId = Factions.Faction2
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Hideatsu the Ebon Ox"
+      card.name = "藏阿苏埃博拉牛"
       card.setDescription("审判: 从你的手牌中召唤7张不同消耗的随从.\n命运: 召唤的友方随从可以对敌方造成所消耗的伤害.")
       card.atk = 5
       card.maxHP = 5
       card.manaCost = 0
       card.rarityId = Rarity.Mythron
       emblemContextObject = PlayerModifierEmblemSummonWatchSonghaiMeltdownQuest.createContextObject()
-      emblemContextObject.appliedName = "Storm of the Ebon Ox"
-      emblemContextObject.appliedDescription = "Whenever you summon a minion, deal damage equal to its cost to an enemy."
+      emblemContextObject.appliedName = "埃博拉牛风暴"
+      emblemContextObject.appliedDescription = "每当你召唤一个仆从时，对敌人造成等同于其代价的伤害。"
       card.setInherentModifiersContextObjects([
         ModifierStartsInHand.createContextObject(),
         ModifierCannotBeReplaced.createContextObject(),
@@ -121,8 +121,8 @@ class CardFactory_CoreshatterSet_Faction2
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
-      card.name = "Bakezori"
-      card.setDescription("Whenever this minion is moved for any reason, draw a card.")
+      card.name = "烘焙师"
+      card.setDescription("每当这个仆从因任何原因被移动时，抽一张牌。")
       card.atk = 2
       card.maxHP = 6
       card.manaCost = 4
@@ -155,8 +155,8 @@ class CardFactory_CoreshatterSet_Faction2
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
       card.id = Cards.Spell.DejaVu
-      card.name = "Meditate"
-      card.setDescription("Shuffle five copies of the spell you cast most recently into your deck (excluding Meditate).")
+      card.name = "冥想"
+      card.setDescription("将你最近施放的咒语的五个副本随机放入你的牌组（冥想除外）。")
       card.rarityId = Rarity.Rare
       card.manaCost = 0
       card.spellFilterType = SpellFilterType.NeutralIndirect
@@ -174,8 +174,8 @@ class CardFactory_CoreshatterSet_Faction2
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
       card.id = Cards.Spell.Kindle
-      card.name = "Knucklestorm"
-      card.setDescription("Intensify: Deal 1 damage to an enemy.")
+      card.name = "纳克尔风暴"
+      card.setDescription("强化：对敌人造成1点伤害。")
       card.rarityId = Rarity.Common
       card.manaCost = 1
       card.spellFilterType = SpellFilterType.EnemyDirect
@@ -197,16 +197,16 @@ class CardFactory_CoreshatterSet_Faction2
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
       card.id = Cards.Artifact.BackstabGloves
-      card.name = "Horned Mask"
-      card.setDescription("Your General gains +1 Attack.\nAfter a friendly minion with Backstab attacks, it gains +1/+1.")
+      card.name = "霍恩德面具"
+      card.setDescription("你的英雄获得+1攻击。\n当一个友军仆从受到背向攻击后，它将获得+1/+1。")
       card.manaCost = 1
       card.rarityId = Rarity.Epic
       card.durability = 3
       attackBuffContextObject = Modifier.createContextObjectWithAttributeBuffs(1,1)
-      attackBuffContextObject.appliedName = "Growing Charge"
+      attackBuffContextObject.appliedName = "持续充能"
       auraContextObject = ModifierMyAttackWatchApplyModifiers.createContextObject([attackBuffContextObject])
-      auraContextObject.appliedName = "Poised to Strike"
-      auraContextObject.appliedDescription = "After this minion attacks, it gains +1/+1."
+      auraContextObject.appliedName = "如箭在弦"
+      auraContextObject.appliedDescription = "在这个随从攻击后，它获得+1/+1。"
       card.setTargetModifiersContextObjects([
         Modifier.createContextObjectWithAttributeBuffs(1,0),
         Modifier.createContextObjectWithAuraForAllAllies([auraContextObject], null, null, [ModifierBackstab.type])
@@ -225,8 +225,8 @@ class CardFactory_CoreshatterSet_Faction2
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
-      card.name = "Kaido Expert"
-      card.setDescription("Backstab: (1).\nWhenever this minion backstabs, summon a minion with Backstab that costs 2 or less from your deck nearby.")
+      card.name = "凯多专家"
+      card.setDescription("背刺：（1）。\n如果没有这个仆从，召唤一个仆从，从你附近的地块上花费2魔力或更少。")
       card.atk = 2
       card.maxHP = 2
       card.manaCost = 3
@@ -256,8 +256,8 @@ class CardFactory_CoreshatterSet_Faction2
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
-      card.name = "Massacre Artist"
-      card.setDescription("Backstab: (2).\nAfter this minion attacks and backstabs, all attacks are backstabs this turn.")
+      card.name = "屠戮艺术家"
+      card.setDescription("背刺：（2）。\在这个仆从攻击和背刺之后，本回合所有攻击都是背刺。")
       card.atk = 2
       card.maxHP = 5
       card.manaCost = 4
@@ -294,7 +294,7 @@ class CardFactory_CoreshatterSet_Faction2
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
-      card.name = "Orizuru"
+      card.name = "方向"
       card.setDescription("Flying")
       card.atk = 3
       card.maxHP = 4
@@ -327,8 +327,8 @@ class CardFactory_CoreshatterSet_Faction2
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
-      card.name = "Xenkai Cannoneer"
-      card.setDescription("Ranged\nWhenever you summon a minion with Ranged, that minion gains Rush.")
+      card.name = "辛坎炮手"
+      card.setDescription("远程\n当你用远程召唤一个随从时，该随从获得急速。")
       card.atk = 4
       card.maxHP = 4
       card.manaCost = 5
@@ -359,8 +359,8 @@ class CardFactory_CoreshatterSet_Faction2
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
-      card.name = "Coalfist"
-      card.setDescription("Intensify: Give a random nearby friendly minion +2 Attack this turn.")
+      card.name = "铁拳"
+      card.setDescription("强化：本回合随机给附近一名友军仆从+2次攻击。")
       card.atk = 5
       card.maxHP = 4
       card.manaCost = 4
@@ -396,14 +396,14 @@ class CardFactory_CoreshatterSet_Faction2
       card.factionId = Factions.Faction2
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.HollowVortex
-      card.name = "Kensho Vortex"
-      card.setDescription("Costs 1 less for each spell you cast this game. Whenever you cast a spell this turn, summon a minion that costs up to 2 more nearby your General.")
+      card.name = "肯索漩涡"
+      card.setDescription("你在这个游戏中每施放一个法术就少1魔力。每当你在这个回合施展法术时，在你英雄附近召唤一个花费为2费的仆从。")
       card.manaCost = 11
       card.rarityId = Rarity.Legendary
       customContextObject = PlayerModifierSpellWatchHollowVortex.createContextObject(2)
       customContextObject.durationEndTurn = 1
-      customContextObject.appliedName = "Kensho Unleashed"
-      customContextObject.appliedDescription = "Casting spells summons minions."
+      customContextObject.appliedName = "肯索释放"
+      customContextObject.appliedDescription = "施法召唤随从。"
       card.applyToOwnGeneral = true
       card.setTargetModifiersContextObjects([customContextObject])
       manaChangeContextObject = ModifierManaCostChange.createContextObject(-1)
@@ -424,8 +424,8 @@ class CardFactory_CoreshatterSet_Faction2
       card.factionId = Factions.Faction2
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.PandaJail
-      card.name = "Pandatentiary"
-      card.setDescription("Surround the enemy General with friendly Panddo that disappear at the start of your next turn.")
+      card.name = "熊猫士兵"
+      card.setDescription("下一回合开始时消失的友方熊猫包围敌人英雄。")
       card.manaCost = 3
       card.rarityId = Rarity.Epic
       card.spellFilterType = SpellFilterType.None
@@ -444,8 +444,8 @@ class CardFactory_CoreshatterSet_Faction2
       card.factionId = Factions.Faction2
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.GreaterPhoenixFire
-      card.name = "Phoenix Barrage"
-      card.setDescription("Deal 3 damage to anything.\nPut a Phoenix Fire into your action bar.")
+      card.name = "凤凰火射击"
+      card.setDescription("对任何物体造成3点伤害。\n在动作栏中插入凤凰火。")
       card.manaCost = 5
       card.rarityId = Rarity.Common
       card.spellFilterType = SpellFilterType.NeutralDirect
@@ -466,8 +466,8 @@ class CardFactory_CoreshatterSet_Faction2
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction2
       card.id = Cards.Spell.BootyProjection
-      card.name = "Second Self"
-      card.setDescription("Put an EXACT copy of a friendly minion into your action bar.")
+      card.name = "第二形态"
+      card.setDescription("在你的行动栏里放一个友方的仆从的复制。")
       card.rarityId = Rarity.Rare
       card.manaCost = 2
       card.spellFilterType = SpellFilterType.AllyDirect
