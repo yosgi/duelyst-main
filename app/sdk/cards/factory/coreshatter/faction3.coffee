@@ -76,15 +76,15 @@ class CardFactory_CoreshatterSet_Faction3
       card = new Unit(gameSession)
       card.factionId = Factions.Faction3
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Notion of Starless Eternity"
-      card.setDescription("Trial: General reaches the other edge of the battlefield with an equipped artifact.\nDestiny: Each equipped artifact gives your General a tier of ascension.")
+      card.name = "不朽星辰的信念"
+      card.setDescription("试炼：英雄带着装备好的神器到达战场的另一边。\n目标：每个装备的神器都会给你的英雄一层提升。")
       card.atk = 3
       card.maxHP = 3
       card.manaCost = 6
       card.rarityId = Rarity.Mythron
       emblemModifier1 = PlayerModifierEmblemSituationalVetQuestFrenzy.createContextObject(1)
-      emblemModifier1.appliedName = "Overcome Eternity"
-      emblemModifier1.appliedDescription = "Each equipped artifact gives your General a tier of ascension: Frenzy, Flying, Celerity."
+      emblemModifier1.appliedName = "战胜永恒"
+      emblemModifier1.appliedDescription = "每件装备的神器都会给你的英雄一个提升等级：狂热、飞翔、敏捷。"
       emblemModifier2 = PlayerModifierEmblemSituationalVetQuestFlying.createContextObject(2)
       emblemModifier2.isHiddenToUI = true
       emblemModifier3 = PlayerModifierEmblemSituationalVetQuestCelerity.createContextObject(3)
@@ -122,8 +122,8 @@ class CardFactory_CoreshatterSet_Faction3
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction3
-      card.name = "Orbrider"
-      card.setDescription("Opening Gambit: Return a nearby friendly minion to your action bar.")
+      card.name = "奥布赖德"
+      card.setDescription("开局策略：将附近的一个友军仆从送回你的行动栏。")
       card.addKeywordClassToInclude(ModifierOpeningGambit)
       card.atk = 2
       card.maxHP = 2
@@ -163,8 +163,8 @@ class CardFactory_CoreshatterSet_Faction3
       card.factionId = Factions.Faction3
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.IncreasingWinds
-      card.name = "Accumulonimbus"
-      card.setDescription("Intensify: Summon 2 Wind Dervishes nearby your General.")
+      card.name = "安姆布卢姆布"
+      card.setDescription("强化：在你的英雄附近召唤2名风之Dervishes。")
       card.manaCost = 5
       card.rarityId = Rarity.Common
       card.spellFilterType = SpellFilterType.None
