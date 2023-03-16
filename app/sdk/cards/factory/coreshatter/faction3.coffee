@@ -187,13 +187,13 @@ class CardFactory_CoreshatterSet_Faction3
       card.factionId = Factions.Faction3
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.GoneWithTheWind
-      card.name = "Wither"
-      card.setDescription("An enemy minion disappears at the start of your next turn.")
+      card.name = "枯萎"
+      card.setDescription("一个敌人的随从在你下一个回合开始时消失。")
       card.manaCost = 3
       card.rarityId = Rarity.Rare
       removeEntityContextObject = ModifierStartOpponentsTurnWatchRemoveEntity.createContextObject()
-      removeEntityContextObject.appliedName = "Withering"
-      removeEntityContextObject.appliedDescription = "Disappears when you end your turn."
+      removeEntityContextObject.appliedName = "凋零"
+      removeEntityContextObject.appliedDescription = "轮到你时消失。"
       removeEntityContextObject.isRemovable = false
       card.setTargetModifiersContextObjects([
         removeEntityContextObject
@@ -214,8 +214,8 @@ class CardFactory_CoreshatterSet_Faction3
       card.factionId = Factions.Faction3
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.SummoningStones
-      card.name = "Circle of Fabrication"
-      card.setDescription("Summon one of each Obelysk from your deck on random spaces.")
+      card.name = "制造结界"
+      card.setDescription("从你的地板上随机召唤一个欧贝莱克。")
       card.manaCost = 9
       card.rarityId = Rarity.Legendary
       card.spellFilterType = SpellFilterType.None
@@ -232,8 +232,8 @@ class CardFactory_CoreshatterSet_Faction3
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction3
-      card.name = "Fifth Canopic"
-      card.setDescription("The enemy General cannot cast their Bloodbound Spell.")
+      card.name = "五号诺比克"
+      card.setDescription("敌人的英雄不能施法。")
       card.atk = 4
       card.maxHP = 8
       card.manaCost = 5
@@ -266,8 +266,8 @@ class CardFactory_CoreshatterSet_Faction3
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction3
       card.id = Cards.Artifact.RepairSword
-      card.name = "Obdurator"
-      card.setDescription("Your General gains +1 Attack.\nAt the start of your turn, repair all of your artifacts by 1 durability.")
+      card.name = "奥布拉托"
+      card.setDescription("你的英雄获得+1攻击。\n在回合开始时，以1的耐久性修复所有装备。")
       card.manaCost = 2
       card.rarityId = Rarity.Epic
       card.durability = 3
@@ -288,9 +288,9 @@ class CardFactory_CoreshatterSet_Faction3
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction3
-      card.name = "Dustdrinker"
+      card.name = "尘埃制造者"
       card.raceId = Races.Dervish
-      card.setDescription("Intensify: Deal 1 damage to the enemy General and this minion gains +1 Health.")
+      card.setDescription("强化：对敌方英雄造成1点伤害，这个随从获得+1点生命值。")
       card.atk = 2
       card.maxHP = 1
       card.manaCost = 2
@@ -327,8 +327,8 @@ class CardFactory_CoreshatterSet_Faction3
       card.factionId = Factions.Faction3
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.GrabAThing
-      card.name = "Planar Foundry"
-      card.setDescription("Draw an artifact from your deck.")
+      card.name = "工艺铸造厂"
+      card.setDescription("从你的牌组中获取工艺品。")
       card.manaCost = 1
       card.rarityId = Rarity.Common
       card.spellFilterType = SpellFilterType.None
@@ -346,8 +346,8 @@ class CardFactory_CoreshatterSet_Faction3
       card.factionId = Factions.Faction3
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.ThoughtExchange
-      card.name = "Synaptic Arbitrage"
-      card.setDescription("Give your opponent a minion to take control of nearby enemy minions with less Attack.")
+      card.name = "联合仲裁"
+      card.setDescription("给你的对手一个仆从，以较少的攻击控制附近的敌人小仆从。")
       card.manaCost = 4
       card.rarityId = Rarity.Epic
       card.spellFilterType = SpellFilterType.AllyDirect
@@ -366,8 +366,8 @@ class CardFactory_CoreshatterSet_Faction3
       card.factionId = Factions.Faction3
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.Metalworking
-      card.name = "Metalmeld"
-      card.setDescription("Equip a friendly artifact that was destroyed this game.")
+      card.name = "金属熔化"
+      card.setDescription("装备一个在游戏中被摧毁的友方神器。")
       card.manaCost = 2
       card.rarityId = Rarity.Rare
       card.spellFilterType = SpellFilterType.None
@@ -384,9 +384,9 @@ class CardFactory_CoreshatterSet_Faction3
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction3
-      card.name = "Khanuum-ka"
+      card.name = "汗乌姆卡"
       card.raceId = Races.Dervish
-      card.setDescription("Flying, Rush\nDying Wish: A random friendly Dervish disappears, summoning a Khanuum-ka in its place.")
+      card.setDescription("飞翔，狂奔：\n一个随机的友方的苦行僧消失了，在它的位置召唤了一个汗乌姆卡。")
       card.atk = 3
       card.maxHP = 3
       card.manaCost = 5
@@ -420,8 +420,8 @@ class CardFactory_CoreshatterSet_Faction3
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction3
-      card.name = "Swarmking Scarab"
-      card.setDescription("Blast\nWhenever this minion blasts, summon 1/1 Scarabyte with Flying and Rush in those spaces.")
+      card.name = "圣甲虫"
+      card.setDescription("爆炸\n当这个仆从爆炸时，在这些空间里用飞行和冲刺召唤出1/1的红柱石。")
       card.atk = 5
       card.maxHP = 7
       card.manaCost = 6
@@ -459,8 +459,8 @@ class CardFactory_CoreshatterSet_Faction3
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction3
-      card.name = "Scarabyte"
-      card.setDescription("Flying\nRush")
+      card.name = "红柱石"
+      card.setDescription("飞行\n滑行")
       card.atk = 1
       card.maxHP = 1
       card.manaCost = 1
@@ -495,13 +495,13 @@ class CardFactory_CoreshatterSet_Faction3
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction3
-      card.name = "Atom Klinger"
-      card.setDescription("Whenever you equip an artifact, this minion gains +Attack equal to the artifact's cost.")
+      card.name = "原子克林格"
+      card.setDescription("每当你装备一件神器时，这个随从获得的+攻击等于该神器的费用。")
       card.atk = 1
       card.maxHP = 5
       card.manaCost = 3
       card.rarityId = Rarity.Rare
-      buffName = "Atomized"
+      buffName = "原子化"
       card.setInherentModifiersContextObjects([ModifierEquipFriendlyArtifactWatchGainAttackEqualToCost.createContextObject(buffName)])
       card.setFXResource(["FX.Cards.Neutral.ArakiHeadhunter"])
       card.setBaseSoundResource(
