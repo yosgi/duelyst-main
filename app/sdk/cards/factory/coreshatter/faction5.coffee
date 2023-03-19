@@ -73,15 +73,15 @@ class CardFactory_CoreshatterSet_Faction5
       card = new Unit(gameSession)
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Hatefurnace"
-      card.setDescription("Trial: Cast 7 spells that cause a minion to gain +Attack.\nDestiny: Minions summoned from your action bar gain Rush and Frenzy.")
+      card.name = "憎恨熔炉"
+      card.setDescription("审判：施放7个法术，使一个随从获得+1攻击。\n目标：从你的行动栏召唤的杂役获得冲刺和疯狂。")
       card.atk = 5
       card.maxHP = 4
       card.manaCost = 4
       card.rarityId = Rarity.Mythron
       emblemModifier = PlayerModifierEmblemSummonWatchFromHandMagmarBuffQuest.createContextObject([ModifierFirstBlood.createContextObject(), ModifierFrenzy.createContextObject()])
-      emblemModifier.appliedName = "Spark of Hatred"
-      emblemModifier.appliedDescription = "Minions summoned from your action bar have Rush and Frenzy."
+      emblemModifier.appliedName = "仇恨火花"
+      emblemModifier.appliedDescription = "从你的行动栏召唤的杂役有急速和疯狂。"
       card.setInherentModifiersContextObjects([
         ModifierStartsInHand.createContextObject(),
         ModifierCannotBeReplaced.createContextObject(),
@@ -118,14 +118,14 @@ class CardFactory_CoreshatterSet_Faction5
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction5
-      card.name = "Angered Okkadok"
-      card.setDescription("Intensify: This minion gains +1/+1.")
+      card.name = "愤怒的奥克卡多克"
+      card.setDescription("强化：这个随从获得+1/+1。")
       card.atk = 1
       card.maxHP = 2
       card.manaCost = 2
       card.rarityId = Rarity.Common
       card.setInherentModifiersContextObjects([
-        ModifierIntensifyBuffSelf.createContextObject(1,1,"Even More Angered")
+        ModifierIntensifyBuffSelf.createContextObject(1,1,"更愤怒")
         ModifierCounterIntensify.createContextObject()
       ])
       card.setFXResource(["FX.Cards.Neutral.VineEntangler"])
@@ -153,8 +153,8 @@ class CardFactory_CoreshatterSet_Faction5
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.IncreasingHeal
-      card.name = "Invigoration"
-      card.setDescription("Intensify: Restore 3 Health to your General.")
+      card.name = "活力四射"
+      card.setDescription("强化：为你的英雄恢复3点生命值。")
       card.manaCost = 2
       card.healAmount = 3
       card.rarityId = Rarity.Common
@@ -175,8 +175,8 @@ class CardFactory_CoreshatterSet_Faction5
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction5
-      card.name = "Mortar-maw"
-      card.setDescription("Ranged\nWhenever this minion attacks, it also damages enemies around its target.")
+      card.name = "砂浆深渊"
+      card.setDescription("远程\n当这个随从攻击时，它也会伤害目标周围的敌人。")
       card.atk = 4
       card.maxHP = 4
       card.manaCost = 5
@@ -209,8 +209,8 @@ class CardFactory_CoreshatterSet_Faction5
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction5
-      card.name = "Beastclad Hunter"
-      card.setDescription("Takes no damage from minions with less Attack.")
+      card.name = "披甲猎人"
+      card.setDescription("不受小杂役伤害，攻击更少。")
       card.atk = 3
       card.maxHP = 6
       card.manaCost = 4
@@ -242,8 +242,8 @@ class CardFactory_CoreshatterSet_Faction5
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction5
-      card.name = "Oropsisaur"
-      card.setDescription("Grow: +1/+1.\nWhenever another friendly minion with Grow survives damage, that minion grows.")
+      card.name = "对弈"
+      card.setDescription("成长：+1/+1。\n当另一个拥有成长技能的友军随从在伤害中幸存时，该随从就会成长。")
       card.atk = 2
       card.maxHP = 5
       card.manaCost = 3
@@ -277,8 +277,8 @@ class CardFactory_CoreshatterSet_Faction5
       card = new Unit(gameSession)
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Krater"
-      card.setDescription("Opening Gambit: Deal 1 damage to everything (including itself).")
+      card.name = "火山口"
+      card.setDescription("开场触发：对所有东西（包括自身）造成1点伤害。")
       card.atk = 2
       card.maxHP = 4
       card.manaCost = 3
@@ -309,8 +309,8 @@ class CardFactory_CoreshatterSet_Faction5
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.Spaghettify
-      card.name = "Deep Impact"
-      card.setDescription("Deal damage to a minion to reduce its Health to 1.")
+      card.name = "深度冲击"
+      card.setDescription("对一个随从造成伤害，使其生命值降至1。")
       card.manaCost = 2
       card.rarityId = Rarity.Rare
       card.spellFilterType = SpellFilterType.NeutralDirect
@@ -329,8 +329,8 @@ class CardFactory_CoreshatterSet_Faction5
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.BigTime
-      card.name = "Gargantuan Growth"
-      card.setDescription("Give a minion, \"Grow: +8/+8.\"")
+      card.name = "巨兽增强"
+      card.setDescription("给一个随从，“成长：+8/+8。”")
       card.manaCost = 4
       card.rarityId = Rarity.Rare
       card.spellFilterType = SpellFilterType.NeutralDirect
@@ -350,8 +350,8 @@ class CardFactory_CoreshatterSet_Faction5
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction5
       card.id = Cards.Artifact.EggArmor
-      card.name = "Zoetic Charm"
-      card.setDescription("Your General has +1 Attack.\nYour Eggs have Forcefield.")
+      card.name = "棕探克的魔力"
+      card.setDescription("你的英雄有+1攻击。\n你的蛋有力场。")
       card.manaCost = 2
       card.rarityId = Rarity.Epic
       card.durability = 3
@@ -377,8 +377,8 @@ class CardFactory_CoreshatterSet_Faction5
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.Reggplicate
-      card.name = "Mitotic Induction"
-      card.setDescription("Summon an Egg of the minion most recently summoned from your action bar.")
+      card.name = "有丝分裂诱导"
+      card.setDescription("召唤一个最近从你的动作栏中召唤出来的随从蛋。")
       card.manaCost = 2
       card.rarityId = Rarity.Epic
       card.spellFilterType = SpellFilterType.SpawnSource
@@ -397,7 +397,7 @@ class CardFactory_CoreshatterSet_Faction5
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
       card.setIsHiddenInCollection(true)
-      card.name = "Katastrophosaurus"
+      card.name = "灾难龙类"
       card.atk = 6
       card.maxHP = 26
       card.manaCost = 5
@@ -430,8 +430,8 @@ class CardFactory_CoreshatterSet_Faction5
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.MarchOfTheBrontos
-      card.name = "Extinction Event"
-      card.setDescription("Each of your Eggs hatches into a Katastrophosaurus.")
+      card.name = "灭绝事件"
+      card.setDescription("你的每一个蛋都孵化成一只卡塔龙。")
       card.manaCost = 8
       card.rarityId = Rarity.Legendary
       card.spellFilterType = SpellFilterType.NeutralIndirect
@@ -451,13 +451,13 @@ class CardFactory_CoreshatterSet_Faction5
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.YellRealLoud
-      card.name = "Bellow"
-      card.setDescription("Give a friendly minion +3 Attack.\nStun enemy minions around it.")
+      card.name = "怒吼"
+      card.setDescription("给予一个友军随从+3攻击。\n扫荡周围的敌人小杂役。")
       card.manaCost = 3
       card.rarityId = Rarity.Common
       card.spellFilterType = SpellFilterType.AllyDirect
       statContextObject = Modifier.createContextObjectWithAttributeBuffs(3,0)
-      statContextObject.appliedName = "Yelled Real Loud"
+      statContextObject.appliedName = "吼叫"
       card.setTargetModifiersContextObjects([
         statContextObject
       ])
@@ -475,8 +475,8 @@ class CardFactory_CoreshatterSet_Faction5
       card = new Unit(gameSession)
       card.factionId = Factions.Faction5
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Haruspex"
-      card.setDescription("Whenever this minion takes damage, your opponent draws a card.")
+      card.name = "哈鲁·斯佩克斯"
+      card.setDescription("每当这个随从受到伤害时，你的对手就会抽到一张牌。")
       card.atk = 7
       card.maxHP = 6
       card.manaCost = 4

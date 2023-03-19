@@ -75,18 +75,18 @@ class CardFactory_CoreshatterSet_Faction4
       card = new Unit(gameSession)
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Underlord Xor'Xuul"
-      card.setDescription("Trial: Cast 6 spells that destroy a friendly minion.\nDestiny: Whenever a friendly minion dies, re-summon it on a random space.")
+      card.name = "辅爵查奥"
+      card.setDescription("审判：施法6次，摧毁一名友军仆从。\n目标：每当一个友好的随从死亡时，在一个随机的空间重新召唤它。")
       card.atk = 6
       card.maxHP = 1
       card.manaCost = 6
       card.rarityId = Rarity.Mythron
       dyingWishModifier = ModifierQuestBuffAbyssian.createContextObject()
-      dyingWishModifier.appliedName = "Will of the Undying"
-      dyingWishModifier.appliedDescription = "Whenever this minion dies, re-summon it on a random space."
+      dyingWishModifier.appliedName = "永不放弃的意志"
+      dyingWishModifier.appliedDescription = "每当这个随从死亡时，在一个随机的空间重新召唤它。"
       emblemModifier = PlayerModifierEmblemSummonWatchAbyssUndyingQuest.createContextObject([dyingWishModifier])
-      emblemModifier.appliedName = "Underlord's Decree"
-      emblemModifier.appliedDescription = "Whenever a friendly minion dies, re-summon it on a random space."
+      emblemModifier.appliedName = "枢密院院长令"
+      emblemModifier.appliedDescription = "每当一个友好的随从死亡时，在随机空间重新召唤它。"
       card.setInherentModifiersContextObjects([
         ModifierStartsInHand.createContextObject(),
         ModifierCannotBeReplaced.createContextObject(),
@@ -120,15 +120,15 @@ class CardFactory_CoreshatterSet_Faction4
       card = new Unit(gameSession)
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Hexclaw"
-      card.setDescription("Dying Wish: The enemy General gains, \"At the start of your turn, take 1 damage.\"")
+      card.name = "赫克斯克劳"
+      card.setDescription("垂死的愿望：敌人英雄获得，“在你回合开始时，受到1点伤害。”")
       card.atk = 7
       card.maxHP = 2
       card.manaCost = 5
       card.rarityId = Rarity.Legendary
       damageSelf = ModifierStartTurnWatchDamageMyGeneral.createContextObject(1)
-      damageSelf.appliedName = "Curse"
-      damageSelf.appliedDescription = "At the start of your turn, your General takes 1 damage."
+      damageSelf.appliedName = "诅咒"
+      damageSelf.appliedDescription = "在你的回合开始时，你的英雄受到1点伤害。"
       card.setInherentModifiersContextObjects([ModifierDyingWishApplyModifiersToGenerals.createContextObject([damageSelf],false,true)])
       card.setFXResource(["FX.Cards.Neutral.Necroseer"])
       card.setBaseSoundResource(
@@ -155,18 +155,18 @@ class CardFactory_CoreshatterSet_Faction4
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction4
       card.id = Cards.Artifact.WraithlingAmulet
-      card.name = "Wraithcrown"
-      card.setDescription("Friendly Wraithlings have +2/+2.")
+      card.name = "赖特"
+      card.setDescription("友方的幽灵有+2/+2。")
       card.manaCost = 4
       card.rarityId = Rarity.Epic
       card.durability = 3
       attackBuffContextObject = Modifier.createContextObjectWithAttributeBuffs(2,2)
-      attackBuffContextObject.appliedName = "Crown of the Meek"
+      attackBuffContextObject.appliedName = "米克的王冠"
       wraithlingId = [
         Cards.Faction4.Wraithling
       ]
       card.setTargetModifiersContextObjects([
-        Modifier.createContextObjectWithAuraForAllAllies([attackBuffContextObject], null, wraithlingId, null, "Crown of the Meek")
+        Modifier.createContextObjectWithAuraForAllAllies([attackBuffContextObject], null, wraithlingId, null, "米克的王冠")
       ])
       card.setFXResource(["FX.Cards.Artifact.Mindlathe"])
       card.setBaseAnimResource(
@@ -181,8 +181,8 @@ class CardFactory_CoreshatterSet_Faction4
       card = new Unit(gameSession)
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Carrion Collector"
-      card.setDescription("Dying Wish: Lower the cost of all minions with Dying Wish in your deck and action bar by 1.")
+      card.name = "腐尸收容器"
+      card.setDescription("垂死之愿：在你的牌堆和动作栏中使用垂死之愿望降低所有小杂役的法力-1。")
       card.atk = 1
       card.maxHP = 1
       card.manaCost = 2
@@ -213,8 +213,8 @@ class CardFactory_CoreshatterSet_Faction4
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.ShadowBlossom
-      card.name = "Painful Pluck"
-      card.setDescription("Intensify: Turn 1 random space into Shadow Creep, prioritizing spaces under enemy minions.")
+      card.name = "痛苦勇气"
+      card.setDescription("强化：将1个随机空格转换为阴影爬行，优先分配敌人小杂役的空格。")
       card.manaCost = 1
       card.rarityId = Rarity.Common
       card.spellFilterType = SpellFilterType.None
@@ -236,8 +236,8 @@ class CardFactory_CoreshatterSet_Faction4
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.Triggered
-      card.name = "Yielding Depths"
-      card.setDescription("If you have three or more Shadow Creep, draw 2 cards.")
+      card.name = "深度屈服"
+      card.setDescription("如果你有三张或三张以上的阴影爬行，抽两张牌。")
       card.manaCost = 2
       card.rarityId = Rarity.Rare
       card.spellFilterType = SpellFilterType.None
@@ -258,8 +258,8 @@ class CardFactory_CoreshatterSet_Faction4
       card = new Unit(gameSession)
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Abyssal Tormentor"
-      card.setDescription("Provoke\nYour Shadow Creep deals damage equal to the number of friendly Shadow Creep.")
+      card.name = "深渊托恩托"
+      card.setDescription("挑衅\n你的暗影潜行造成的伤害等于己方暗影潜行的数量。")
       card.atk = 6
       card.maxHP = 6
       card.manaCost = 6
@@ -298,8 +298,8 @@ class CardFactory_CoreshatterSet_Faction4
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.GateToDudesHouse
-      card.name = "Unfathomable Rite"
-      card.setDescription("Draw cards from your opponent's deck to fill your action bar.")
+      card.name = "深渊仪式"
+      card.setDescription("从对手的牌组中抽出牌来填满你的动作栏。")
       card.manaCost = 6
       card.rarityId = Rarity.Epic
       card.setFXResource(["FX.Cards.Spell.UnfathomableRite"])
@@ -316,8 +316,8 @@ class CardFactory_CoreshatterSet_Faction4
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.TickleTendril
-      card.name = "Munch"
-      card.setDescription("Steal Health from an enemy minion for each friendly Shadow Creep (but not more than its Health).")
+      card.name = "咀嚼"
+      card.setDescription("为每一个友方的暗影潜行从敌方随从那里偷取生命值（但不超过其生命值）。")
       card.manaCost = 3
       card.rarityId = Rarity.Rare
       card.spellFilterType = SpellFilterType.EnemyDirect
@@ -335,14 +335,14 @@ class CardFactory_CoreshatterSet_Faction4
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction4
-      card.name = "Bonecrusher"
-      card.setDescription("Intensify: This minion gains +5 Attack.")
+      card.name = "碎骨魔"
+      card.setDescription("强化：这个爪牙获得+5攻击。")
       card.atk = 0
       card.maxHP = 3
       card.manaCost = 3
       card.rarityId = Rarity.Common
       card.setInherentModifiersContextObjects([
-        ModifierIntensifyBuffSelf.createContextObject(5, 0, "Shadow Strength"),
+        ModifierIntensifyBuffSelf.createContextObject(5, 0, "阴暗力量"),
         ModifierCounterIntensify.createContextObject()
       ])
       card.setFXResource(["FX.Cards.Neutral.SilhoutteTracer"])
@@ -369,8 +369,8 @@ class CardFactory_CoreshatterSet_Faction4
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction4
-      card.name = "Chittering Tiller"
-      card.setDescription("Frenzy\nOpening Gambit: Teleport the enemy General one space forward.")
+      card.name = "裂纹松土机"
+      card.setDescription("疯狂\n甘比特：将敌人英雄向前传送一个空间。")
       card.atk = 4
       card.maxHP = 3
       card.manaCost = 3
@@ -405,8 +405,8 @@ class CardFactory_CoreshatterSet_Faction4
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Faction4
-      card.name = "Gibbet"
-      card.setDescription("Whenever this attacks an enemy minion, destroy that minion and summon a Gibbet on that space.")
+      card.name = "绞刑架"
+      card.setDescription("每当这个攻击敌人的随从时，摧毁那个随从并在那个空间召唤一个绞刑架。")
       card.atk = 1
       card.maxHP = 2
       card.manaCost = 2
@@ -439,12 +439,12 @@ class CardFactory_CoreshatterSet_Faction4
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.TwoForMe
-      card.name = "Demonic Conversion"
-      card.setDescription("Draw a minion from your opponent\'s deck. It gains +1/+1.")
+      card.name = "恶魔转换"
+      card.setDescription("从对手的牌组中抽取一个随从。它获得+1/+1。")
       card.manaCost = 1
       card.rarityId = Rarity.Common
       card.spellFilterType = SpellFilterType.None
-      card.buffName = "Demonic Persuasion"
+      card.buffName = "恶魔劝说"
       card.setFXResource(["FX.Cards.Spell.DemonicConversion"])
       card.setBaseSoundResource(
         apply : RSX.sfx_spell_voidpulse02.audio
@@ -459,8 +459,8 @@ class CardFactory_CoreshatterSet_Faction4
       card.factionId = Factions.Faction4
       card.setCardSetId(CardSet.Coreshatter)
       card.id = Cards.Spell.EvilXerox
-      card.name = "Unleash the Evil"
-      card.setDescription("Summon a copy of the minion your opponent most recently summoned from their action bar. It gains Rush and Flying.")
+      card.name = "释放邪恶"
+      card.setDescription("召唤一个你的对手最近从他们的行动栏中召唤的随从复制。它获得了冲刺和飞行。")
       card.manaCost = 8
       card.rarityId = Rarity.Legendary
       card.spellFilterType = SpellFilterType.SpawnSource
