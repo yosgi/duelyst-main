@@ -77,17 +77,17 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.factionId = Factions.Neutral
       card.setCardSetId(CardSet.Coreshatter)
-      card.name = "Mythron Wanderer"
-      card.setDescription("Trial: Have no duplicate cards in your deck.\nDestiny: Your minions have +1/+1.")
+      card.name = "王座流浪者"
+      card.setDescription("审判：牌组中没有重复的牌。\n目标：你的仆从拥有+1/+1。")
       card.atk = 6
       card.maxHP = 6
       card.manaCost = 6
       card.rarityId = Rarity.Mythron
       buffContextObject = ModifierQuestBuffNeutral.createContextObjectWithAttributeBuffs(1,1)
-      buffContextObject.appliedName = "Those Who Wander"
+      buffContextObject.appliedName = "流浪者"
       emblemModifier = PlayerModifierEmblemSummonWatchSingletonQuest.createContextObject([buffContextObject])
-      emblemModifier.appliedName = "Roads of Mythron"
-      emblemModifier.appliedDescription = "Your minions have +1/+1."
+      emblemModifier.appliedName = "王座之路"
+      emblemModifier.appliedDescription = "你的仆从拥有+1/+1。"
       card.setInherentModifiersContextObjects([
         ModifierStartsInHand.createContextObject(),
         ModifierCannotBeReplaced.createContextObject(),
@@ -121,8 +121,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Mirrorrim"
-      card.setDescription("Opening Gambit: Shuffle three copies of a friendly minion into your deck.")
+      card.name = "多重镜像"
+      card.setDescription("开场触发: 将三个友方仆从复制随机放入你的地块。")
       card.atk = 2
       card.maxHP = 1
       card.manaCost = 1
@@ -164,8 +164,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Aer Pridebeak"
-      card.setDescription("Whenever your opponent casts a spell, restore 1 Health to your General.")
+      card.name = "普里德贝克气体"
+      card.setDescription("每当你的对手施法时，为你的英雄恢复1点生命值。")
       card.atk = 3
       card.maxHP = 4
       card.manaCost = 3
@@ -197,7 +197,7 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Saberspine Alpha"
+      card.name = "萨贝阿尔法"
       card.setDescription("Rush")
       card.atk = 5
       card.maxHP = 5
@@ -228,8 +228,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Alcuin Fugitive"
-      card.setDescription("At the end of any turn you cast a spell, put a copy of the most recently cast spell into your action bar.")
+      card.name = "阿尔金逃亡者"
+      card.setDescription("在你施法的任何回合结束时，将最近施法的复制放入你的动作栏。")
       card.atk = 2
       card.maxHP = 5
       card.manaCost = 5
@@ -262,8 +262,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Sellsoul"
-      card.setDescription("Dying Wish: Deal 4 damage to YOUR General.")
+      card.name = "塞尔苏尔"
+      card.setDescription("遗愿：对你的英雄造成4点伤害。")
       card.atk = 4
       card.maxHP = 5
       card.manaCost = 3
@@ -299,7 +299,7 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Worldcore Golem"
+      card.name = "世核魔像"
       card.atk = 25
       card.maxHP = 25
       card.manaCost = 9
@@ -331,8 +331,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Prongbok"
-      card.setDescription("May move an additional space.")
+      card.name = "发音"
+      card.setDescription("可能会移动额外的空间。")
       card.atk = 2
       card.maxHP = 5
       card.manaCost = 3
@@ -369,8 +369,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Riftwalker"
-      card.setDescription("Airdrop\nIntensify: Deal 1 damage to everything around it.")
+      card.name = "步枪行者"
+      card.setDescription("空投\n强化：对周围的一切造成1点伤害。")
       card.atk = 3
       card.maxHP = 3
       card.manaCost = 4
@@ -404,8 +404,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Fizzling Mystic"
-      card.setDescription("Opening Gambit: Deal 2 damage to an enemy OR restore 2 Health to a friendly minion or General.")
+      card.name = "米斯蒂克私语"
+      card.setDescription("开场触发: 对敌人造成2点伤害，或者对己方的随从或英雄恢复2点生命值。")
       card.atk = 3
       card.maxHP = 3
       card.manaCost = 4
@@ -445,8 +445,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Araras Prophet"
-      card.setDescription("Whenever you replace a card, shuffle a Brilliant Plume into your deck.")
+      card.name = "阿拉拉斯先知"
+      card.setDescription("每当你更换一张牌时，都要将一个璀璨宝石放入你的牌组中。")
       card.atk = 1
       card.maxHP = 3
       card.manaCost = 2
@@ -483,8 +483,8 @@ class CardFactory_CoreshatterSet_Neutral
       card.id = Cards.Spell.BrilliantPlume
       card.setCardSetId(CardSet.Coreshatter)
       card.setIsHiddenInCollection(true)
-      card.name = "Brilliant Plume"
-      card.setDescription("Restore 1 Health to your General.\nDraw a card.")
+      card.name = "璀璨宝石"
+      card.setDescription("恢复随从1点生命值。\n制作一张卡片。")
       card.spellFilterType = SpellFilterType.AllyIndirect
       card.radius = CONFIG.WHOLE_BOARD_RADIUS
       card.canTargetGeneral = true
@@ -505,8 +505,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Lodestar"
-      card.setDescription("Airdrop, Forcefield\nAt the end of BOTH players' turns, pull some things to this minion.")
+      card.name = "北极星"
+      card.setDescription("空投，兵力场\n在两名玩家回合结束时，给这个仆从随机物品。")
       card.atk = 4
       card.maxHP = 4
       card.manaCost = 6
@@ -542,8 +542,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Chirpuka"
-      card.setDescription("Whenever your opponent summons a minion, summon a 2/1 Puka with Provoke in front of it.")
+      card.name = "奇普卡"
+      card.setDescription("每当你的对手召唤一个随从时，召唤一个前面有普罗沃的2/1普卡。")
       card.atk = 3
       card.maxHP = 6
       card.manaCost = 5
@@ -577,7 +577,7 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Puka"
+      card.name = "普卡"
       card.setDescription("Provoke")
       card.atk = 2
       card.maxHP = 1
@@ -612,8 +612,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Mnemovore"
-      card.setDescription("Whenever you summon a minion, burn three cards from your opponent's deck.")
+      card.name = "爆燃"
+      card.setDescription("每当你召唤一个随从时，燃烧对手的牌组中的三张牌。")
       card.atk = 7
       card.maxHP = 7
       card.manaCost = 7
@@ -647,8 +647,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Scarzig"
-      card.setDescription("If this minion destroys an enemy and survives, friendly Scarzig ANYWHERE transform into Feather Knights.")
+      card.name = "恐惧"
+      card.setDescription("如果这个仆从消灭了一个敌人并存活下来，那么无论在哪里，友好的斯卡泽都会变身为羽毛骑士。")
       card.atk = 1
       card.maxHP = 2
       card.manaCost = 3
@@ -683,15 +683,15 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Scarzig, Feather Knight"
-      card.setDescription("Celerity\nWhenever this minion attacks, give other friendly minions +1/+1.")
+      card.name = "羽毛骑士"
+      card.setDescription("速度\n无论这个随从攻击什么时候，给其他友方仆从+1/+1。")
       card.atk = 4
       card.maxHP = 8
       card.manaCost = 3
       card.rarityId = Rarity.TokenUnit
       card.setIsHiddenInCollection(true)
       buffContextObject = Modifier.createContextObjectWithAttributeBuffs(1,1)
-      buffContextObject.appliedName = "Scarzig's Command"
+      buffContextObject.appliedName = "斯卡泽的指挥部"
       card.setInherentModifiersContextObjects([
         ModifierTranscendance.createContextObject(),
         ModifierMyAttackWatchApplyModifiersToAllies.createContextObject([buffContextObject], false)
@@ -723,8 +723,8 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Orbo the Ostentatious"
-      card.setDescription("Opening Gambit: Transform the cards in your action bar into random prismatic legendary cards.")
+      card.name = "招摇的奥博"
+      card.setDescription("开发触发: 将你的动作栏中的牌转换为随机的棱柱形传奇牌")
       card.atk = 3
       card.maxHP = 4
       card.manaCost = 3
@@ -758,13 +758,13 @@ class CardFactory_CoreshatterSet_Neutral
       card = new Unit(gameSession)
       card.setCardSetId(CardSet.Coreshatter)
       card.factionId = Factions.Neutral
-      card.name = "Hsuku"
-      card.setDescription("At the end of any player's turn, give one of their minions a random buff and keyword (excluding Hsuku).")
+      card.name = "许库"
+      card.setDescription("在任何玩家的回合结束时，给他们的一个仆从和一个随机的buff和关键字（不包括许库）。")
       card.atk = 2
       card.maxHP = 6
       card.manaCost = 4
       card.rarityId = Rarity.Epic
-      hsukuModifier = ModifierEndTurnWatchAnyPlayerHsuku.createContextObject("Hsuku Buff")
+      hsukuModifier = ModifierEndTurnWatchAnyPlayerHsuku.createContextObject("许库Buff")
       card.setInherentModifiersContextObjects([
         hsukuModifier
       ])
