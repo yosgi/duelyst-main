@@ -93,7 +93,7 @@ const FreeCardOfTheDayLayer = RewardLayer.extend({
         this.runAction(cc.sequence(
           cc.delayTime(0.5),
           cc.callFunc(() => {
-            this.showTitles(CONFIG.ANIMATE_FAST_DURATION, 'Free Card of The Day', 'Press Anywhere to Reveal').then(resolve);
+            this.showTitles(CONFIG.ANIMATE_FAST_DURATION, '每日奖励', 'Press Anywhere to Reveal').then(resolve);
           }),
         ));
       });
